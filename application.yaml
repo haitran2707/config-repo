@@ -1,0 +1,6 @@
+spring:
+  config:
+    import:
+      - userservice.yaml
+      - authorservice.yaml
+      - apigateway.yaml
