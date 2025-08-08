@@ -1,6 +1,0 @@
-spring:
-  config:
-    import:
-      - authorservice.yml
-      - apigateway.yml
-      
