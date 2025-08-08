@@ -2,5 +2,5 @@ spring:
   config:
     import:
       - authorservice.yml
-      - authorservice.yml
+      - apigateway.yml
       
