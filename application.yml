@@ -3,4 +3,4 @@ spring:
     import:
       - userservice.yml
       - authorservice.yml
-      - apigateway.yml
+      
