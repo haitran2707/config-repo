@@ -3,5 +3,5 @@ spring:
     import:
       - userservice.yml
       - authorservice.yaml
-      - journalarticleservie.yml
+      - journalarticleservice.yml
       - apigateway.yaml
