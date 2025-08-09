@@ -15,6 +15,10 @@ spring:
           uri: lb://AUTHOR
           predicates:
             - Path=/api/authors/**
+        - id: journal
+          uri: lb://JOURNAL
+          predicates:
+            - Path=/api/articles/**
 
 eureka:
   client:
