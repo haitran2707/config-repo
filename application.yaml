@@ -5,4 +5,5 @@ spring:
       - authorservice.yaml
       - journalarticleservice.yml
       - commentservice.yml
+      - mediaservice.yml
       - apigateway.yaml
