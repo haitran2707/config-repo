@@ -19,6 +19,10 @@ spring:
           uri: lb://JOURNAL
           predicates:
             - Path=/api/articles/**
+        - id: comment
+          uri: lb://COMMENT
+          predicates:
+            - Path=/api/comments/**
 
 eureka:
   client:
