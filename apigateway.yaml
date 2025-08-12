@@ -72,8 +72,3 @@ management:
     web:
       exposure:
         include: "*"
-logging:
-  level:
-    org.springframework: DEBUG
-    com.netflix: DEBUG
-    org.springframework.cloud: DEBUG
