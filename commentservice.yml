@@ -16,6 +16,22 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      binders:
+        defaultRabbit:
+          type: rabbit
+      bindings:
+        commentCreated-out-0:
+          destination: comment-queue
+          binder: defaultRabbit
+          group: comment-group
+          content-type: application/json
 
 eureka:
   client:
